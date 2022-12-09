@@ -27,7 +27,10 @@ ul{
 
 body{
 font-family: 'Roboto', sans-serif;
-background-color: var(--background-color);
+}
+
+.index-body{
+    background-color: var(--background-color);
 }
 
 
@@ -40,13 +43,14 @@ background-color: var(--background-color);
 
 .header{
     background-color: #FFFFFF;
+    border-bottom: 1px solid #ECECEC;
 }
 
 .nav-layout {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 50px;
+    gap: 90px;
 }
 
 .header-menu{
@@ -313,6 +317,7 @@ background-color: var(--background-color);
 .portf-cards{
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .portf-items{
@@ -321,14 +326,15 @@ background-color: var(--background-color);
     margin-bottom: 30px;
 }
 
+.portf-cards-text{
+    padding: 20px 23px;
+}
+
 .project-title{
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em; 
     color: var(--color-text-primary);
-    padding-left: 24px;
-    padding-right: 24px;
-    padding-top: 20px;
     padding-bottom: 4px;
 }
 
@@ -337,7 +343,5 @@ background-color: var(--background-color);
     line-height: 1.875;
     letter-spacing: 0.03em;
     color: var(--color-text-secondary);
-    padding-left: 24px;
-    padding-right: 24px;
-    padding-bottom: 20px;
 }
+
